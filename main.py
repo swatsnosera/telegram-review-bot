@@ -13,7 +13,8 @@ from telegram.ext import (
     filters,
 )
 
-TOKEN = "7979765433:AAE0mzKNx7uNqE68mRq0kaud4Om2XlmsooI"
+import os
+TOKEN = os.getenv("7979765433:AAE0mzKNx7uNqE68mRq0kaud4Om2XlmsooI")
 CHANNEL_USERNAME = "@BEYWOIP"
 
 RATING, REVIEW, ASK_CONS, CONS_TEXT = range(4)
